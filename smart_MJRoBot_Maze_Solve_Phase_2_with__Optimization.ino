@@ -1,11 +1,3 @@
-/*------------------------------------------------------------------
-7 sensors Smart Robot - Maze Solver and Line Follower with programable PID controller via BT
-==> Basic movement based on Nano Mouse Robot, developed by Michael Backus (http://www.akrobotnerd.com/ )
-==> Line follow based on http://samvrit.tk/tutorials/pid-control-arduino-line-follower-robot/?ckattempt=1
-==> CREDIT to Patrick McCabe for the path Solving Code, visit patrickmccabemakes.com!!
-Marcelo Jose Rovai - 23 April, 2016 - Visit: http://mjrobot.org
--------------------------------------------------------------------*/
-
 #include <Servo.h>
 #include "robotDefines.h"
 
@@ -16,7 +8,6 @@ String device;
 #include <SoftwareSerial.h>
 SoftwareSerial BT1(10, 11); // El pin 10 es Rx y el pin 11 es Tx
 
-//---------------------------------------------
 void setup() 
 {
   
