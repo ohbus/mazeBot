@@ -52,9 +52,9 @@ void readLFSsensors()
     
 }
 
-//-----------------------------------------------------------
-void readLateralSensors(void)
 
+
+void readLateralSensors(void)
 {
   
 }
