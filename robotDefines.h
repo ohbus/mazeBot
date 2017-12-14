@@ -1,4 +1,6 @@
 
+int mode = 0;
+
 # define STOPPED 0
 # define FOLLOWING_LINE 1
 # define NO_LINE 2
@@ -47,7 +49,7 @@ float previousError=0, previousI=0;
 Servo leftServo;
 Servo rightServo;
 
-//-------------------------------------------------
+
 //Specific Maze Phase 2 (optimization) definitions and variables 
 
 unsigned char dir; 
@@ -62,6 +64,5 @@ char path[100] = "";
 unsigned char pathLength = 0; // the length of the path
 int pathIndex = 0;
 unsigned int status = 0; // solving = 0; reach end = 1
-
 
 
