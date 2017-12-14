@@ -83,5 +83,3 @@ void loop()
   pathIndex = 0;
   pathLength = 0;
 }
-
-
