@@ -78,6 +78,8 @@ void followingLine(void)
 // sequence xBx, we can simplify it by cutting out the dead end.  For
 // example, LBL -> S, because a single S bypasses the dead end
 // represented by LBL.
+
+
 void simplifyPath()
 {
   // only simplify the path if the second-to-last turn was a 'B'

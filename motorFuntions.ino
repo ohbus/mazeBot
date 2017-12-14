@@ -37,6 +37,7 @@ void motorBwTime (unsigned int time)
 }
 
 
+
 void motorTurn(int direction, int degrees)
 {
   leftServo.writeMicroseconds(1500 - (iniMotorPower+adj)*direction);
@@ -44,6 +45,7 @@ void motorTurn(int direction, int degrees)
   delay (round(adjTurn*degrees+20));
   motorStop();
 }
+
 
 
 void motorPIDcontrol()
@@ -65,6 +67,7 @@ void motorPIDcontrol()
   //Serial.print ("   ");
   //Serial.println (rightMotorSpeed);
 }
+
 
 
 void runExtraInch(void)
