@@ -64,5 +64,3 @@ char path[100] = "";
 unsigned char pathLength = 0; // the length of the path
 int pathIndex = 0;
 unsigned int status = 0; // solving = 0; reach end = 1
-
-
