@@ -10,6 +10,8 @@ void ledBlink(int times)
 }
 
 
+
+
  void checkBTcmd()  
  { 
    while (BT1.available())   //Check if there is an available byte to read
@@ -27,6 +29,7 @@ void ledBlink(int times)
      BT1.flush();
     } 
 }
+
 
 
 
@@ -77,6 +80,8 @@ void manualCmd()
 
 
 
+
+
 void sendBTdata (int data) // send data to BT
 
 {
@@ -87,6 +92,8 @@ void sendBTdata (int data) // send data to BT
     BT1.println('\n');
     digitalWrite (ledPin, LOW);
 }
+
+
 
 
 
@@ -119,6 +126,7 @@ void checkPIDvalues()
   Serial.println(Kd);  
   
 }
+
 
 
 
