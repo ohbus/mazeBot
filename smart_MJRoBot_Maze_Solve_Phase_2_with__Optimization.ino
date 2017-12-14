@@ -6,7 +6,7 @@ String device;
 
 // BT Module
 #include <SoftwareSerial.h>
-SoftwareSerial BT1(10, 11); // El pin 10 es Rx y el pin 11 es Tx
+SoftwareSerial BT1(10, 11);  // El pin 10 es Rx y el pin 11 es Tx
 
 void setup() 
 {
@@ -43,6 +43,9 @@ void setup()
   mode = STOPPED;
   status = 0; // 1st pass
 }
+
+
+
 
 void loop() 
 {
