@@ -1,4 +1,3 @@
-sint mode = 0;
 
 # define STOPPED 0
 # define FOLLOWING_LINE 1
