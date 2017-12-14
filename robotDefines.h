@@ -1,4 +1,3 @@
-
 int mode = 0;
 
 # define STOPPED 0
@@ -32,7 +31,6 @@ const int THRESHOLD = 150;
 int farRightSensor = 0;
 int farLeftSensor = 0;
 
-
 int LFSensor[5]={0, 0, 0, 0, 0};
 
 // PID controller
@@ -48,7 +46,6 @@ float previousError=0, previousI=0;
 
 Servo leftServo;
 Servo rightServo;
-
 
 //Specific Maze Phase 2 (optimization) definitions and variables 
 
