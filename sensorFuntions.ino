@@ -1,6 +1,3 @@
-
-
-//-------------------------------------------------------------
 /* read line sensors values 
 
 Sensor Array 	Error Value
@@ -18,6 +15,8 @@ Sensor Array 	Error Value
 0 0 0 0 0        0 Robot found no line: turn 180o
 
 */
+
+
 void readLFSsensors()
 {
   LFSensor[0] = digitalRead(lineFollowSensor0);
